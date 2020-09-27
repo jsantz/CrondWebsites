@@ -1,0 +1,574 @@
+﻿
+<!DOCTYPE html>
+<html lang="en-us" class="theme-cyan">
+<head>
+	<esi:include src="/TemplatePackage/4.0/includes/head-content.html" maxwait="5000" onerror="continue"></esi:include>	<title>Cases in U.S. | CDC</title>
+		<meta name="description" content="See the number of people under investigation (PUIs) in the United States and states with confirmed cases of Coronavirus Disease 2019 (COVID-19).">		<meta name="keywords" content="people under investigation coronavirus, cases coronavirus US, Coronavirus Disease 2019 (COVID-19) in the US, which states have coronavirus, which cities have coronavirus, COVID-19 in the United States, Coronavirus [CoV]">				<meta property="og:title" content="Coronavirus Disease 2019 (COVID-19) in the U.S.">
+		<meta property="og:description" content="View the number of confirmed cases COVID-19 in the United States.">
+		<meta property="fb:app_id" content="205691699516606">
+				<meta property="og:url" content="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">
+
+					<meta property="og:image" content="https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png">
+							<meta property="og:image:type" content="image/png">
+						<meta property="article:published_time" content="2020-04-17">
+		<meta property="og:author" content="CDC">
+		<meta property="article:author" content="CDC">
+		<meta property="og:site_name" content="Centers for Disease Control and Prevention">
+		<meta property="og:type" content="article">
+				<meta name="twitter:card" content="summary_large_image">		<meta name="twitter:site" content="@CDCgov">
+		<meta name="twitter:creator" content="@CDCgov">
+					<meta name="twitter:title" content="Coronavirus Disease 2019 (COVID-19) in the U.S.">
+			<meta name="twitter:description" content="View the number of confirmed cases COVID-19 in the United States.">
+						<meta name="twitter:image:src" content="https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png">
+					<meta name="robots" content="index, archive">		
+			<meta property="cdc:template_version" content="4.0">
+		<meta property="cdc:last_updated" content="April 17, 2020">
+	<meta property="cdc:last_reviewed" content="April 17, 2020">
+	<meta property="cdc:content_source" content="NATL CENTER FOR IMMUNIZATION AND RESPIRATORY DISEASES; DIVISION OF VIRAL DISEASES">
+	<meta property="cdc:maintained_by" content="NATL CENTER FOR IMMUNIZATION AND RESPIRATORY DISEASES">
+	<meta property="cdc:content_id" content="27777">
+			<link rel="canonical" href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">	<meta property="cdc:wcms_build" content="4.9.2 - b.2525">
+		<esi:include src="/coronavirus/2019-ncov/wcms-inc/localAdditionalHeadIncludes_TP4_noglobal.html" maxwait="5000" onerror="continue"></esi:include>		<!-- OLD TITLE 2/14/2020 2019 Novel Coronavirus (2019-nCoV) in the U.S. | CDC -->
+<!-- NEW PAGE CREATED 1/24/2020 -->
+<script type="text/javascript">
+var modifyChartStyles = function() {
+  $('#cdcCharts2').on('load', function() {
+    $('#cdcCharts2').contents().find("head")
+      .append($("<style type='text/css'>div.region-label {font-size: 12px; padding: 5px 7px; box-sizing: border-box; font-weight: 600;} #reset-legend {display:none}</style>"));  
+  })
+}
+var observer = new MutationObserver(function (mutations, me) {
+  // `mutations` is an array of mutations that occurred
+  // `me` is the MutationObserver instance
+  var chart = document.querySelector('#cdcCharts2');
+  if (chart) {
+    modifyChartStyles();
+    me.disconnect(); // stop observing
+    return;
+  }
+});
+observer.observe(document, {
+  childList: true,
+  subtree: true
+});
+</script>		<!-- CSS Added Dynamically Here -->		<meta name="DC.date" content="2020-04-17T11:40:32Z">
+				<meta name="cdc:last_published" content="2020-04-17T23:41:26Z">
+	
+					
+
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"25642",ustr:"",originlat:"0",clientrtt:"5",ghostip:"184.27.45.134",ipv6:true,pct:"10",clientip:"2607:f298:5:101d:f816:3eff:feae:58a9",requestid:"90faadc",region:"18109",protocol:"",blver:14,akM:"dscb",akN:"ae",akTT:"O",akTX:"1",akTI:"90faadc",ai:"272761",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+<body class="no-js">
+	<div id="skipmenu">
+		<a class="skippy sr-only-focusable" href="#content">Skip directly to site content</a>
+									<a class="skippy sr-only-focusable" href="#share-nav">Skip directly to page options</a>
+						<a class="skippy sr-only-focusable" href="#az-large">Skip directly to A-Z link</a>
+			</div>
+		<esi:include src="/coronavirus/2019-ncov/wcms-inc/localBodyTop_TP4.html" maxwait="5000" onerror="continue"></esi:include>	<esi:include src="/TemplatePackage/4.0/includes/global-alert.html" maxwait="5000" onerror="continue"></esi:include>
+				<div class="container-fluid header-wrapper">
+				<div class="container">
+					<header role="banner" aria-label="Header" class="pt-2 pb-2">
+						<div class="row">
+							<div class="col cdc-logo">
+																	<esi:include src="/TemplatePackage/4.0/includes/header-logo.html" maxwait="5000" onerror="continue"></esi:include>															</div>
+														<div class="col-2 col-md-3 col-xl-5 col-xxl-4 tp-search">
+								<esi:include src="/coronavirus/wcms-inc/globalheadersearch_tp4.html" maxwait="5000" onerror="continue"></esi:include>							</div>
+													</div>
+					</header>
+				</div>
+			</div>
+					<div class="container-fluid site-title">
+				<div class="container">
+					<esi:include src="/coronavirus/2019-ncov/wcms-inc/localSiteTitleBar_TP4.html" maxwait="5000" onerror="continue"></esi:include>				</div>
+			</div>
+						<nav role="navigation" aria-label="Mobile Nav" id="mobilenav" class="sticky-top">
+				<esi:include src="/TemplatePackage/4.0/includes/nav-mobile.html" maxwait="5000" onerror="continue"></esi:include>			</nav>
+						<div class="container breadcrumb-share">
+							<div class="d-none d-lg-block">
+				<div class="row">
+					<div class="col-sm-8 col-xl-9">
+						<!-- Breadcrumbs -->
+							<nav role="navigation" aria-label="Breadcrumb" class="d-none d-lg-block breadcrumbs">
+		<ol class="breadcrumb">
+
+		</ol>
+	</nav>
+						</div>
+											<div class="col-sm-4 col-xl-3 page-share">
+							<!-- Page Share -->
+							<esi:include src="/TemplatePackage/4.0/includes/page-share.html" maxwait="5000" onerror="continue"></esi:include>						</div>
+									</div>
+			</div>
+						</div>
+			
+		<!-- Above Footer Start -->
+		<esi:include src="/coronavirus/wcms-inc/globalabovefeature_tp4.html" maxwait="5000" onerror="continue"></esi:include>		<!-- Above Footer End -->
+
+		<div class="container-fluid feature-area">
+			<div class="container"></div>		</div>
+
+		<!-- Page Content Wrap -->
+				<div class="container d-flex flex-wrap body-wrapper bg-white">
+			<!-- Content -->
+			<main class="col-lg-9 order-lg-2" role="main" aria-label="Main Content Area">
+				<div class="row visual-element">
+					<div class="col">
+						<!-- Visual Element, this is what was the site identity in TP3 -->
+						<esi:include src="/coronavirus/2019-ncov/wcms-inc/localVisualElement_TP4.html" maxwait="5000" onerror="continue"></esi:include>											</div>
+				</div>
+				<div class="section-nav-area">
+					<nav role="navigation" aria-label="Section Nav" class="w-100 sticky-top">
+						<!-- Page Title/Section Nav (mobile) -->
+					</nav>
+				</div>
+
+				<div class="row">
+					<div class="col content "><div class="syndicate"><h1 id="content">Cases of Coronavirus Disease (COVID-19) in the U.S.</h1></div><div class="dropdown p-none" style="margin-top:-5px; margin-bottom:33px;"><button class="btn bg-white dropdown-toggle fs08 c-blue b-gray-l3" type="button" id="languageDropDownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Languages</button><div class="dropdown-menu ds-4" aria-labelledby="languageDropDownMenu"><a class="dropdown-item fs08" onclick="return switchMPLanguage('es');" href="https://espanol.cdc.gov/enes/coronavirus/2019-ncov/cases-updates/cases-in-us.html" mporgnav="">Español</a><a class="dropdown-item fs08" onclick="return switchMPLanguage('zh');" href="https://chinese.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" mporgnav="">简体中文</a><a class="dropdown-item fs08" onclick="return switchMPLanguage('vi');" href="https://vietnamese.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" mporgnav="">Tiếng Việt</a><a class="dropdown-item fs08" onclick="return switchMPLanguage('ko');" href="https://korean.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html" mporgnav="">한국어</a></div></div>										<div class="mb-3 card tp-related-pages fourth-level-nav d-none">
+						<div class="card-header collapse-icon">
+							<a class="collapse-link float-right nav-minus fs0875" data-toggle="collapse" href="#collapse_277775e9a3ea6cbdd0" aria-expanded="false" aria-controls="collapse_277775e9a3ea6cbdd0">
+								<svg viewbox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<title>Minus</title>
+									<path d="M19,13H5V11H19V13Z">
+									</path>
+								</svg>
+							</a>
+							<div class="h4">Related Pages</div>
+						</div>
+						<div class="card-body collapse show" id="collapse_277775e9a3ea6cbdd0"></div>
+					</div>
+										<div class="syndicate">
+						<div class="row "><div class="col-md-8"><p><span class="text-red">Last updated <esi:include src="/coronavirus/2019-ncov/json/updated-date-ssi.html" maxwait="5000" onerror="continue"></esi:include></span></p>
+<div class="card bl-3 bl-amber-s mb-3"><div class="card-body bg-amber-t"><div class="row"><div class="col"><p>This page is updated daily. Numbers reported on Saturdays and Sundays are preliminary and not yet confirmed by state and territorial health departments. These numbers will be modified when numbers are updated on Mondays.</p>
+<p>CDC does not know the exact number of COVID-19 illnesses, hospitalizations, and deaths for a variety of reasons. COVID-19 can cause mild illness, symptoms might not appear immediately, there are delays in reporting and testing, not everyone who is infected gets tested or seeks medical care, and there may be differences in how states and territories confirm numbers in their jurisdictions.</p>
+</div></div></div></div></div><div class="col-md-4">
+		<div class="card tp-on-this-page mb-3 d-none d-lg-block">
+			<div class="card-header">On This Page</div>
+			<ul class="block-list order-1 list-group list-group-flush">
+				<li class="list-group-item"><a href="#anchor_1586782138">U.S. At A Glance</a></li><li class="list-group-item"><a href="#anchor_1586784349">Number of COVID-19 Cases in the U.S., by State or Territory</a></li><li class="list-group-item"><a href="#anchor_1586790730">Number of COVID-19 Cases in the U.S., by Date Reported</a></li><li class="list-group-item"><a href="#anchor_1587083500">Demographic characteristics of COVID-19 cases in the U.S.</a></li><li class="list-group-item"><a href="#anchor_1586793690">More U.S. COVID-19 Data from CDC</a></li>			</ul>
+		</div>
+		
+<p></p></div></div><div class="row "><div class="col-md-12"><a id="anchor_1586782138" title="U.S. At A Glance" class="onThisPageAnchor"></a><h3>U.S. At A Glance<a href="#1"><sup>1</sup></a><sup>,</sup><a href="#2"><sup>2</sup></a></h3>
+</div></div><div class="row "><div class="col-md-8">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html 2019coronavirus-summary">
+		<div class="wpb_wrapper">
+			<div class="row">
+	<div class="col-md-12">
+		<div class="card mb-3">
+			<div class="card-header bg-tertiary">
+				<div class="row">
+					<div class="col">
+						<strong>Total Cases<sup>*</sup></strong>
+					</div>
+					<div class="col">
+						<strong>Total Deaths<sup>*</sup></strong> 
+					</div>
+          <div class="col">
+						<strong>Total Jurisdictions<sup>**</sup></strong>
+					</div>
+				</div>
+			</div>
+			<div class="card-body bg-tertiary">
+				<div class="row">
+					<div class="col">
+						<h2 id="covid-19-cases-total"><esi:include src="/coronavirus/2019-ncov/json/us-total-cases-ssi.html" maxwait="5000" onerror="continue"></esi:include></h2>
+					</div>
+					<div class="col">
+						<h2 id="covid-19-deaths-total"><esi:include src="/coronavirus/2019-ncov/json/us-total-deaths-ssi.html" maxwait="5000" onerror="continue"></esi:include></h2>
+					</div>
+          <div class="col">
+            <h2><esi:include src="/coronavirus/2019-ncov/json/jurisdictions-count-ssi.html" maxwait="5000" onerror="continue"></esi:include></h2>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+<div class=" 2019coronavirus-summary"><p><small>*Total cases includes 1,282 probable cases and total deaths includes 4,226 probable deaths.</small><br>
+<small>**Total jurisdictions includes <esi:include src="/coronavirus/2019-ncov/json/jurisdictions-ssi.html" maxwait="5000" onerror="continue"></esi:include></small></p>
+</div></div><div class="col-md-4"><a href="/coronavirus-interactive/index.html" class="bg-gray-d1 ds-8 mb-3 nav-btn nav-btn-horizontal noLinking noDecoration card"><img src="/coronavirus/2019-ncov/covid-data/images/corona-interactive.jpg" alt="Looking over shoulder as a finger taps the screen of a digital tablet." class="card-img-top img-fluid p-0"><div class="card-body "><div class="card-title h5 mb text-left">Coronavirus Interactive</div></div></a></div></div><div class="row "><div class="col-md-8"><a id="anchor_1586784349" title="Number of COVID-19 Cases in the U.S., by State or Territory" class="onThisPageAnchor"></a><h2>Number of COVID-19 Cases in the U.S., by State or Territory<a href="#2"><sup>2</sup></a><sup>,</sup><a href="#3"><sup>3</sup></a></h2>
+<p><esi:include src="/coronavirus/2019-ncov/json/data-date-ssi.html" maxwait="5000" onerror="continue"></esi:include><br>
+This map shows confirmed and probable COVID-19 cases reported by U.S. states, U.S. territories, and the District of Columbia. Each <a href="https://www.cdc.gov/publichealthgateway/healthdirectories/healthdepartments.html">state&rsquo;s health department</a>&nbsp;reports how much the virus has spread in their community.</p>
+</div><div class="col-md-4"></div></div><div class="row "><div class="col-md-12">
+<div class="mb-3" data-host="www.cdc.gov" data-theme="theme-cyan" data-cdc-widget="cdcMaps" data-config-url="/coronavirus/2019-ncov/cases-updates/map-cases-us-grasp.json"></div>
+<div class="wpb_raw_code wpb_content_element wpb_raw_html share-map">
+		<div class="wpb_wrapper">
+			<div class="row mb-3">
+	<div class="col-xl-7 col-xxl-6">
+		<p class="fs0875"><strong>Add U.S. map to your website.</strong></p>
+	</div>
+	<div class="col-8 col-xl-3 col-xxl-4">
+		<label class="sr-only" for="corona-map-embed">Coronavirus map embed</label>
+		<input id="corona-map-embed" class="w-100 h-125 fs07" type="text" value="Embed Code Here">
+	</div>
+	<div class="col-4 col-xl-2">
+		<a target="_blank" class="page-share-facebook metrics-share-facebook mr-2" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html#2019coronavirus-summary&amp;title=Coronavirus%20Disease%202019%20(COVID-19)%20in%20the%20U.S.&amp;description=View%20the%20number%20of%20confirmed%20cases%20COVID-19%20in%20the%20United%20States.&amp;via=undefined&amp;media=https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png"><span class="sr-only">Facebook</span><span class="fi fill-fb cdc-icon-fb-round x24"></span></a>
+		<a target="_blank" class="page-share-twitter metrics-share-twitter mr-2" href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html#2019coronavirus-summary&amp;title=Coronavirus%20Disease%202019%20(COVID-19)%20in%20the%20U.S.&amp;description=View%20the%20number%20of%20confirmed%20cases%20COVID-19%20in%20the%20United%20States.&amp;via=CDCgov&amp;ct=0&amp;media=https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png"><span class="sr-only">Twitter</span><span class="fi fill-tw cdc-icon-twitter-round x24"></span></a>
+		<a target="_blank" class="page-share-email metrics-share-email mr-2" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html#2019coronavirus-summary&amp;title=Coronavirus%20Disease%202019%20(COVID-19)%20in%20the%20U.S.&amp;description=View%20the%20number%20of%20confirmed%20cases%20COVID-19%20in%20the%20United%20States.&amp;via=CDC&amp;ct=0&amp;media=https://www.cdc.gov/coronavirus/2019-ncov/images/social/covid-19-us-cases.png"><span class="sr-only">Email</span><span class="fi cdc-icon-email-round x24"></span></a>
+	</div>
+</div>
+		</div>
+	</div>
+</div></div><div class="row mb-0 "><div class="col-md-12"><a id="anchor_1586790730" title="Number of COVID-19 Cases in the U.S., by Date Reported" class="onThisPageAnchor"></a><h3>Number of COVID-19 Cases in the U.S., by Date Reported<a href="#2"><sup>2</sup></a></h3>
+<p>January 22 to <esi:include src="/coronavirus/2019-ncov/json/data-date-ssi.html" maxwait="5000" onerror="continue"></esi:include><br>
+(n=<esi:include src="/coronavirus/2019-ncov/json/us-total-cases-ssi.html" maxwait="5000" onerror="continue"></esi:include>)</p>
+
+<div data-host="www.cdc.gov" data-display-mode="wcms" data-cdc-widget="cdcCharts" data-config-url="/coronavirus/2019-ncov/cases-updates/total-cases-onset.json" data-data-url="/coronavirus/2019-ncov/json/cumm-total-chart-data.json" class="mb-3"></div>
+<p></p></div></div><div class="row "><div class="col-md-12"><a id="anchor_1587083500" title="Demographic characteristics of COVID-19 cases in the U.S." class="onThisPageAnchor"></a><h3>Demographic characteristics of COVID-19 cases in the U.S. (n=497,161)<a href="4"><sup>4</sup></a></h3>
+<table class="table table-sm table-bordered fs08 nein-scroll">
+<caption class="sr-only">Demographic characteristics of COVID-19 cases in the United States</caption>
+<thead class="bg-gray-l1 bg-gray-l1">
+<tr>
+<th></th>
+<th id="t1r01c02" colspan="7">No. of cases (% of total)</th>
+</tr>
+<tr>
+<th id="t1r02c01">Age group<br>
+(years)</th>
+<th id="t1r02c02">&lt; 18</th>
+<th id="t1r02c03">18-44</th>
+<th id="t1r02c04">45-64</th>
+<th id="t1r02c05">65-74</th>
+<th id="t1r02c06">75+</th>
+<th id="t1r02c07">Unknown</th>
+<th id="t1r02c08">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Totals</strong></td>
+<td>8,930</td>
+<td>179,938</td>
+<td>183,722</td>
+<td>53,648</td>
+<td>57,397</td>
+<td>13,526</td>
+<td>497,161</td>
+</tr>
+<tr>
+<td><strong>Race missing/unspecified</strong></td>
+<td>7,400
+<p>(83%)</p></td>
+<td>144,315
+<p>(80%)</p></td>
+<td>141,222
+<p>(77%)</p></td>
+<td>37,973
+<p>(71%)</p></td>
+<td>36,754
+<p>(64%)</p></td>
+<td>8,965
+<p>(66%)</p></td>
+<td>376,629
+<p>(76%)</p></td>
+</tr>
+<tr>
+<td><strong>Race specified</strong></td>
+<td>1,530
+<p>(17%)</p></td>
+<td>35,623
+<p>(20%)</p></td>
+<td>42,500
+<p>(23%)</p></td>
+<td>15,675
+<p>(29%)</p></td>
+<td>20,643
+<p>(36%)</p></td>
+<td>4,561
+<p>(34%)</p></td>
+<td>120,532
+<p>(24%)</p></td>
+</tr>
+<tr>
+<th id="t1r06c01" class="bg-gray-l1" colspan="8">Among those with race specified</th>
+</tr>
+<tr>
+<td><strong>American Indian or Alaska Native</strong></td>
+<td>23
+<p>(1.5%)</p></td>
+<td>310
+<p>(1%)</p></td>
+<td>277
+<p>(0.7%)</p></td>
+<td>87
+<p>(0.5%)</p></td>
+<td>54
+<p>(0.3%)</p></td>
+<td>14
+<p>(0.3%)</p></td>
+<td>765
+<p>(1%)</p></td>
+</tr>
+<tr>
+<td><strong>Asian</strong></td>
+<td>59
+<p>(4%)</p></td>
+<td>1,823
+<p>(5%)</p></td>
+<td>2,003
+<p>(5%)</p></td>
+<td>548
+<p>(3%)</p></td>
+<td>616
+<p>(3%)</p></td>
+<td>258
+<p>(6%)</p></td>
+<td>5,307
+<p>(4.4%)</p></td>
+</tr>
+<tr>
+<td><strong>Black or African American</strong></td>
+<td>437
+<p>(28.5%)</p></td>
+<td>11,018
+<p>(31%)</p></td>
+<td>14,218
+<p>(33%)</p></td>
+<td>5,293
+<p>(34%)</p></td>
+<td>4,601
+<p>(22.3%)</p></td>
+<td>931
+<p>(20%)</p></td>
+<td>36,498
+<p>(30%)</p></td>
+</tr>
+<tr>
+<td><strong>Native Hawaiian or other Pacific Islander</strong></td>
+<td>7
+<p>(0.5%)</p></td>
+<td>160
+<p>(0.5%)</p></td>
+<td>136
+<p>(0.3%)</p></td>
+<td>40
+<p>(0.3%)</p></td>
+<td>27
+<p>(0.2%)</p></td>
+<td>13
+<p>(0.3%)</p></td>
+<td>383
+<p>(0.3%)</p></td>
+</tr>
+<tr>
+<td><strong>White</strong></td>
+<td>989
+<p>(64.5%)</p></td>
+<td>22,170
+<p>(62%)</p></td>
+<td>25,748<br>
+(60.7%)</td>
+<td>9,674
+<p>(62%)</p></td>
+<td>15,313
+<p>(74%)</p></td>
+<td>3,341
+<p>(73.3%)</p></td>
+<td>77,235
+<p>(64%)</p></td>
+</tr>
+<tr>
+<td><strong>Multiple/other</strong></td>
+<td>15
+<p>(1.0%)</p></td>
+<td>142
+<p>(0.5%)</p></td>
+<td>118
+<p>(0.3%)</p></td>
+<td>33
+<p>(0.2%)</p></td>
+<td>32
+<p>(0.2%)</p></td>
+<td>4
+<p>(0.1%)</p></td>
+<td>344
+<p>(0.3%)</p></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Ethnicity missing/unspecified</strong></td>
+<td>7,387
+<p>(83%)</p></td>
+<td>145,083
+<p>(81%)</p></td>
+<td>144,184
+<p>(78%)</p></td>
+<td>40,098
+<p>(75%)</p></td>
+<td>41,098
+<p>(72%)</p></td>
+<td>7,678
+<p>(57%)</p></td>
+<td>385,528
+<p>(78%)</p></td>
+</tr>
+<tr>
+<td><strong>Ethnicity specified</strong></td>
+<td>1,543
+<p>(17%)</p></td>
+<td>34,855
+<p>(19%)</p></td>
+<td>39,538
+<p>(22%)</p></td>
+<td>13,550
+<p>(25%)</p></td>
+<td>16,299
+<p>(28%)</p></td>
+<td>5,848
+<p>(43%)</p></td>
+<td>111,633
+<p>(22%)</p></td>
+</tr>
+<tr>
+<th id="t1r15c01" class="bg-gray-l1" colspan="8">Among those with ethnicity specified</th>
+</tr>
+<tr>
+<td><strong>Hispanic/Latino</strong></td>
+<td>500
+<p>(32%)</p></td>
+<td>8,637
+<p>(25%)</p></td>
+<td>7,508
+<p>(19%)</p></td>
+<td>1,603
+<p>(12%)</p></td>
+<td>1,318
+<p>(8%)</p></td>
+<td>678
+<p>(12%)</p></td>
+<td>20,244
+<p>(18%)</p></td>
+</tr>
+<tr>
+<td><strong>Non-Hispanic/Latino</strong></td>
+<td>1,043
+<p>(68%)</p></td>
+<td>26,218
+<p>(75%)</p></td>
+<td>32,030
+<p>(81%)</p></td>
+<td>11,947
+<p>(88%)</p></td>
+<td>14,981
+<p>(92%)</p></td>
+<td>5,170
+<p>(88%)</p></td>
+<td>91,389
+<p>(82%)</p></td>
+</tr>
+</tbody>
+</table>
+</div></div><div class="row "><div class="col-md-12"><a id="anchor_1586793690" title="More U.S. COVID-19 Data from CDC" class="onThisPageAnchor"></a><div class=" mt-o pt-0"><h3>More U.S. COVID-19 Data from CDC</h3>
+<h4><a href="/coronavirus/2019-ncov/covid-data/covidview/index.html">COVIDView</a></h4>
+<p>A weekly surveillance summary of U.S. COVID-19 activity. The report summarizes and interprets key indicators including information related to COVID-19 outpatient visits, emergency department visits, hospitalizations and deaths, as well as laboratory data.</p>
+<h4><a href="/coronavirus/2019-ncov/cases-updates/index.html">Cases &amp; Surveillance</a></h4>
+<p>This website features links to different CDC data platforms, FAQs about data and surveillance, and highlights recent data reports.</p>
+<h4><a href="/coronavirus-interactive/index.html" target="_blank" rel="noopener noreferrer">CDC Coronavirus Interactive</a></h4>
+<p>CDC Coronavirus Interactive is a website that allows users to interact with a variety of data on COVID-19 that is updated daily. The site presents data using visual dashboards that include interactive maps, graphs and other visuals. It is being developed in phases. The first phase showcases data on U.S. cases and deaths of COVID-19 and social impacts of COVID-19 disease.</p>
+</div><div class="row-fluid">
+	<div class="vc_empty_space col-12 pb-3"><span class="vc_empty_space_inner"></span></div>
+</div>
+<h3>Previous U.S. COVID-19 Case Data</h3>
+<p>CDC has moved the following information to the <a href="/coronavirus/2019-ncov/cases-updates/previouscases.html">Previous U.S. COVID-19 Case Data</a></p>
+<ul class="false">
+<li>When did people in the U.S. get sick from COVID-19,</li>
+<li>How did people in the U.S. get COVID-19, and</li>
+<li>Cases of COVID-19 from Wuhan, China and the Diamond Princess cruise.</li>
+</ul>
+<div class="row-fluid">
+	<div class="vc_empty_space col-12 pb-3"><span class="vc_empty_space_inner"></span></div>
+</div>
+<h3>About the Data on This Page</h3>
+<p id="1">1. State and local public health departments are now testing and publicly reporting their cases. In the event of a discrepancy between CDC cases and cases reported by state and local public health officials, data reported by states should be considered the most up to date.</p>
+<p id="2">2. As of April 14, 2020, CDC case counts and death counts include both confirmed and probable cases and deaths. This change was made to reflect an <a href="https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf" target="new" class="tp-link-policy" data-domain-ext="com">interim COVID-19 position statement<span class="sr-only">pdf icon</span><span class="fi cdc-icon-pdf x16 fill-pdf" aria-hidden="true"></span><span class="file-details"></span><span class="sr-only">external icon</span><span class="fi cdc-icon-external x16 fill-external" aria-hidden="true"></span></a> issued by the Council for State and Territorial Epidemiologists on April 5, 2020. The position statement included a case definition and made COVID-19 a nationally notifiable disease.</p>
+<p>A confirmed case or death is defined by meeting confirmatory laboratory evidence for COVID-19. A probable case or death is defined by i) meeting clinical criteria AND epidemiologic evidence with no confirmatory laboratory testing performed for COVID-19; or ii) meeting presumptive laboratory evidence AND either clinical criteria OR epidemiologic evidence; or iii) meeting vital records criteria with no confirmatory laboratory testing performed for COVID19.</p>
+<p id="3">3. Self-reported by health department characterizing the level of community transmission in their jurisdiction as: &ldquo;Yes, widespread&rdquo; (defined as: widespread community transmission across several geographical areas); &ldquo;Yes, defined area(s)&rdquo; (defined as: distinct clusters of cases in a, or a few, defined geographical area(s)); &ldquo;Undetermined&rdquo; (defined as: 1 or more cases but not classified as &ldquo;Yes&rdquo; to community transmission); or &ldquo;N/A&rdquo; (defined as: no cases).</p>
+<p id="4">4. Case notifications were received by CDC from U.S. public health jurisdictions and the National Notifiable Diseases Surveillance System (NNDSS).</p>
+<div class="row-fluid">
+	<div class="vc_empty_space col-12 pb-3"><span class="vc_empty_space_inner"></span></div>
+</div>
+</div></div><div class="row "><div class="col-md-12"><div class="card mb-3"><div class="card-header h4 bg-gray-l1">Related Pages</div><div class="card-body "><div class="row"><div class="col"><ul class="block-list">
+<li><a href="/coronavirus/2019-ncov/cases-updates/previouscases.html">Previous U.S. COVID-19 Case Data</a></li>
+<li><a href="/coronavirus/2019-ncov/covid-data/faq-surveillance.html">FAQ: COVID-19 Data and Surveillance</a></li>
+<li><a href="/coronavirus/2019-ncov/cases-updates/testing-in-us.html">Testing in the U.S.</a></li>
+<li><a href="/coronavirus/2019-ncov/cases-updates/world-map.html">World Map</a></li>
+<li><a href="/coronavirus/2019-ncov/php/index.html">Health Departments</a></li>
+</ul>
+</div></div></div></div><div class="text-right mb-2"><a href="#">Top of Page</a></div></div></div>
+					</div>
+													</div>
+		</div>
+							
+					<div class="row d-none d-lg-block">
+				<div class="col pca">
+					<!-- Persistent Content Area Here -->
+					<esi:include src="/coronavirus/2019-ncov/wcms-inc/localPersistentContentArea_TP4.html" maxwait="5000" onerror="continue"></esi:include>									</div>
+			</div>
+						<div class="row last-reviewed-row">
+				<div class="col last-reviewed">
+					Page last reviewed:  <span id="last-reviewed-date">April 17, 2020</span>					<div class="d-none d-lg-block content-source">Content source: <esi:include src="/coronavirus/2019-ncov/wcms-inc/localContentSource_TP4.html" maxwait="5000" onerror="continue"></esi:include></div>
+				</div>
+			</div>
+					</main>
+		<!-- Left / Bottom Nav -->
+				<div class="col-lg-3 order-lg-1 leftnav-wrapper">
+			<!-- include virtual="/TemplatePackage/4.0/includes/nav-main.html" -->
+			<nav role="navigation" aria-label="Left Navigation Menu">
+				<esi:include src="/coronavirus/2019-ncov/wcms-inc/localLeftNav_TP4.html" maxwait="5000" onerror="continue"></esi:include>			</nav>
+			<div class="col-12 mt-5">
+				<esi:include src="/coronavirus/2019-ncov/wcms-inc/localGovDelivery_TP4.html" maxwait="5000" onerror="continue"></esi:include><esi:include src="/coronavirus/2019-ncov/wcms-inc/localUnderNav_TP4.html" maxwait="5000" onerror="continue"></esi:include>					<div class="d-none d-lg-block">
+						<esi:include src="/coronavirus/2019-ncov/wcms-inc/localUnderNavDesktop_TP4.html" maxwait="5000" onerror="continue"></esi:include>					</div>
+								</div>
+		</div>
+				</div>
+
+		<!-- Above Footer Start -->
+		<esi:include src="/coronavirus/wcms-inc/globalabovefooter_tp4.html" maxwait="5000" onerror="continue"></esi:include>		<!-- Above Footer End -->
+				<footer role="contentinfo" aria-label="Footer">
+							<div class="container-fluid footer-wrapper">
+					<div class="container">
+
+						<esi:include src="/TemplatePackage/4.0/includes/footer-cdc.html" maxwait="5000" onerror="continue"></esi:include>
+					</div>
+				</div>
+									<div class="container-fluid agency-footer pb-0">
+						<div class="container">
+							<esi:include src="/TemplatePackage/4.0/includes/footer-agency.html" maxwait="5000" onerror="continue"></esi:include>						</div>
+					</div>
+					<esi:include src="/TemplatePackage/4.0/includes/footer-language-assistance.html" maxwait="5000" onerror="continue"></esi:include>						</footer>
+		<esi:include src="/TemplatePackage/4.0/includes/social-media-footer.html" maxwait="5000" onerror="continue"></esi:include><esi:include src="/TemplatePackage/4.0/includes/metrics.html" maxwait="5000" onerror="continue"></esi:include><esi:include src="/TemplatePackage/4.0/includes/scripts.html" maxwait="5000" onerror="continue"></esi:include>
+<esi:include src="/TemplatePackage/4.0/includes/svg-multicolor.html" maxwait="5000" onerror="continue"></esi:include>
+
+
+
+<!-- JS Added Dynamically Here --><esi:include src="/TemplatePackage/contrib/ssi/widget-loader.html" maxwait="5000" onerror="continue"></esi:include>
+<esi:include src="/coronavirus/2019-ncov/wcms-inc/localBodyBottom_TP4.html" maxwait="5000" onerror="continue"></esi:include>
+<script>
+    
+    <esi:include src="/coronavirus/2019-ncov/wcms-inc/localmetrics_TP4.html" maxwait="5000" onerror="continue"/>    
+    </script>
+<script>
+	window.shortTitle = "Cases of Coronavirus Disease (COVID-19) in the U.S.";
+	window.pageOptions = window.pageOptions || {};
+	<esi:include src="/coronavirus/2019-ncov/wcms-inc/localLeftNavRender_TP4.html" maxwait="5000" onerror="continue"/>		<esi:include src="/coronavirus/2019-ncov/wcms-inc/localBreadcrumbs_TP4.html" maxwait="5000" onerror="continue"/>
+	window.CDC.tp4.public.appInit( window.pageOptions );
+
+	$( document ).ready( function() {
+		CDC.Search.init();
+	} );
+</script>
+
+
+<esi:include src="/TemplatePackage/4.0/includes/page-bottom-extras.html" maxwait="5000" onerror="continue"></esi:include></body>
+</html>
+
